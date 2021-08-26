@@ -19,5 +19,6 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         transform.position = transTarget.position;
+        transform.rotation = transTarget.rotation;
     }
 }
